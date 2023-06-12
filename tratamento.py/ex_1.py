@@ -9,7 +9,6 @@ while True:
         menu= int(input(" \nDigite:\n 1 Para Cadastro do cliente\n 2 Para Cadastro de passagem\n 3 Para Cadastro do avião\n 4 Para Cadastro da tripulação\n 5 Para Imprimir\n 6 Para sair\n Sua opção:"))
     except ValueError:
         print("Digito inválido.Tente novamente")
-        continue
     if menu == 1:
         print("---- BEM VINDO AO CADASTRO DE CLIENTES----")
         while True:
@@ -18,27 +17,21 @@ while True:
                     print("Nome Válido")
                 elif nome.isalpha() == False:
                     print("NOME INVÁLIDO")
-                    continue
                 sobrenome=str(input("\nSobrenome: "))
                 if sobrenome.isalpha()== True:
                     print("Sobrenome Válido")
                 elif sobrenome.isalpha()== False:
                     print("Sobrenome Inválido")
                     continue
-                    try:
+                try:
                         rg=int(input("\nRg:"))
                         cpf=int(input("\nCpf:"))
                         fone=int(input("\nTelefone para contato: "))
                         idade=int(input("\nIdade: "))
-                        lista_cliente.append(nome)
-                        lista_cliente.append(sobrenome)
-                        lista_cliente.append(rg)
-                        lista_cliente.append(cpf)
-                        lista_cliente.append(fone)
-                        lista_cliente.append(idade)
-                        break
-    except :
-        print("Por favor, digite apenas números. Tente novamente")
+                        
+                except :
+                    print("Por favor, digite apenas números. Tente novamente")
+                    break
     if menu == 2:
         print("----BEM VINDO AO CADASTRO DE PASSAGENS----")
     destino=str(input("\nSeu destino: "))
@@ -137,4 +130,3 @@ if len(lista_tripulacao)>0:
         print(pergunta,lista_tripulacao[c])
         c+=1
 c=0
-if menu == 6:
