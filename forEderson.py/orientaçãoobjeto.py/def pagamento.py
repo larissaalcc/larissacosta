@@ -1,11 +1,3 @@
-'''def hello (nome, idade):
-    print(" Olá, ",nome,",",idade)
-while True:
-    name=input("Digite seu nome: ")
-    anos=input("Digite sua idade: ")
-    hello (name, anos)'''
-
-
 def calcular_pagamento(qntd_hr, qntd_valor):
     horas= float(qntd_hr)
     valor=float(qntd_valor)
