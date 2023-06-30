@@ -1,6 +1,14 @@
-import matplotlib.pyplot as plt
-x=[2023,2022,2021,2020]
-y=[1302,1212,1100,1045]
-
-plt.plot(x,y,'y')
-plt.show()
+'''import secrets
+import os
+a="a"
+sorteio=[]
+while a !='
+':
+    a=input("Digite algo para colocar no sorteador: ")
+    sorteio.append(a)
+    os.system("cls")
+sorteio.pop(-1)
+print(sorteio)
+os.system('pause')
+os.system('cls')
+print(secrets.choice(sorteio))'''
