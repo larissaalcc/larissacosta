@@ -7,13 +7,13 @@ class Pessoa():
         self.estado=estado
 
     def relatorio(self):
-        print("Nome: ")
-        print("Idade: ")
-        print("Endereço: ")
-        print("Cidade: ")
-        print("Estado: ")
+        print("Nome: ",self.nome)
+        print("Idade: ",self.idade)
+        print("Endereço: ",self.endereco)
+        print("Cidade: ",self.cidade)
+        print("Estado: ",self.estado)
 
-class aluno(Pessoa):
+class Aluno(Pessoa):
     def __init__(self,mensalidade,nome,idade,endereco,cidade,estado):
         super().__init__(self,mensalidade,nome,idade,endereco,cidade,estado)
         self.mensalidade=mensalidade
@@ -22,3 +22,11 @@ class aluno(Pessoa):
         super().relatorio()
         print("Mensalidade:",self.mensalidade)
 
+class Professor(Pessoa):
+    def __init__(self,salario,nome,idade,endereco,cidade,estado):
+        super().__init__(self,salario,nome,idade,endereco,cidade,estado)
+        self.salario=salario
+        print("--------------------")
+        print("SEJA BEM VINDO PROFESSOR!")
+        super().relatorio()
+        print("Salario: ",self.salario)
