@@ -1,7 +1,5 @@
 from Conta_bancaria import*
-import datetime as dt 
-listaDeposito=[]
-listaSaque=[]
+
 
 
 while True:
@@ -23,7 +21,7 @@ while True:
         print("\nBem vindo ao saque:")
         s=int(input("Digite sua senha: "))
         banco.sacar(s)
-        listaSaque.append()
+        
         
 
     elif escolha==3:
@@ -35,7 +33,15 @@ while True:
     elif escolha==4:
         print("Vamos consultar seu extrato!")
         s=int(input("Digite sua senha: "))
-        banco.extrato(s)
+        extrato=banco.extrato(s)
+        for a in extrato:
+           print()
+           for b in a:
+               print(b,end=' ')
+        print("\n")
+           
+       
+        
        
 
 
