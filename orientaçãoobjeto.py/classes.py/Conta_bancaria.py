@@ -29,7 +29,7 @@ class Conta_bancaria():
         print("\nDepósito efetuado com suceso")
         print("Seu saldo agora é:",self.__saldo)
 
-
+ 
     def sacar(self,s):
 
         if s!=self.__senha:

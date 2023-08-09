@@ -2,6 +2,7 @@ from Conta_bancaria import*
 
 
 
+
 while True:
     escolha=int(input("\n>>Bem vindo a sua Conta Bancária\n>>Para prosseguir selecione a operação que deseja efetuar!\n1.Cadastro\n2.Saque\n3.Depósito\n4.Ver extrato\nOu 0 para encerrar\nDigite aqui: "))
 
