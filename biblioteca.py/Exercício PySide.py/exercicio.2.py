@@ -1,5 +1,3 @@
-
-
 from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow, QLabel
 from PySide6.QtCore import QSize
 import sys
