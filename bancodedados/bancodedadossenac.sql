@@ -41,3 +41,9 @@ primary key(titulo)
 );
 describe video;
 show tables;
+rename table usuario to cliente;
+describe cliente;
+ alter table ator change localnascimento lugarquenasceu varchar(30);
+ alter table video add column genero varchar(30) first;
+ 
+ 
