@@ -30,7 +30,7 @@
        <item>
         <widget class="QFrame" name="frame_2">
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 246, 120);</string>
+          <string notr="true">background-color: rgb(170, 85, 127);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -48,7 +48,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 170, 127);</string>
+             <string notr="true">background-color: rgb(170, 12, 120);</string>
             </property>
             <property name="text">
              <string>                                         BEM VINDO AO BANCO - VAMOS ABRIR SUA CONTA </string>
@@ -57,6 +57,9 @@
           </item>
           <item>
            <widget class="QLabel" name="LabelTitular">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 80, 136);</string>
+            </property>
             <property name="text">
              <string>Nome do Titular:</string>
             </property>
@@ -84,6 +87,16 @@
            </widget>
           </item>
           <item>
+           <widget class="QPushButton" name="BotaoCadastrar">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 12, 120);</string>
+            </property>
+            <property name="text">
+             <string>CADASTRAR</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QLabel" name="LabelDep">
             <property name="text">
              <string>Depósito Inicial: *</string>
@@ -98,16 +111,6 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="BotaoCadastrar">
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 170, 127);</string>
-            </property>
-            <property name="text">
-             <string>CADASTRAR</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <widget class="QCheckBox" name="checkdeposito">
             <property name="text">
              <string>Depósito</string>
@@ -118,6 +121,30 @@
            <widget class="QCheckBox" name="checksaque">
             <property name="text">
              <string>Saque*</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="labelsaque">
+            <property name="text">
+             <string>Saque:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="Lineeditsaque">
+            <property name="placeholderText">
+             <string>valor para saque </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 12, 120);</string>
+            </property>
+            <property name="text">
+             <string>SACAR</string>
             </property>
            </widget>
           </item>
@@ -137,6 +164,9 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(170, 12, 120);</string>
+            </property>
             <property name="text">
              <string>VER SALDO</string>
             </property>
