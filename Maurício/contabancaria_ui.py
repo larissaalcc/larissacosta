@@ -142,4 +142,12 @@ class Ui_MainWindow(object):
         self.LabelNaoObrigatorio.setText(QCoreApplication.translate("MainWindow", u"*Dep\u00f3sito Inicial n\u00e3o \u00e9 obrigat\u00f3rio", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"VER SALDO", None))
     # retranslateUi
+    
 
+import sys
+app = QApplication(sys.argv)
+w = QMainWindow()
+ui = Ui_MainWindow()
+ui.setupUi(w)
+w.show()
+app.exec()
