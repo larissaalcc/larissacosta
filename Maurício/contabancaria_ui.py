@@ -37,7 +37,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.frame_2 = QFrame(self.frame)
         self.frame_2.setObjectName(u"frame_2")
-        self.frame_2.setStyleSheet(u"background-color: rgb(255, 246, 120);")
+        self.frame_2.setStyleSheet(u"background-color: rgb(170, 85, 127);")
         self.frame_2.setFrameShape(QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QFrame.Raised)
         self.verticalLayout = QVBoxLayout(self.frame_2)
@@ -48,12 +48,13 @@ class Ui_MainWindow(object):
         font.setFamilies([u"Sitka Subheading"])
         font.setPointSize(11)
         self.LabelBemvindo.setFont(font)
-        self.LabelBemvindo.setStyleSheet(u"background-color: rgb(255, 170, 127);")
+        self.LabelBemvindo.setStyleSheet(u"background-color: rgb(170, 12, 120);")
 
         self.verticalLayout.addWidget(self.LabelBemvindo)
 
         self.LabelTitular = QLabel(self.frame_2)
         self.LabelTitular.setObjectName(u"LabelTitular")
+        self.LabelTitular.setStyleSheet(u"background-color: rgb(170, 80, 136);")
 
         self.verticalLayout.addWidget(self.LabelTitular)
 
@@ -72,6 +73,12 @@ class Ui_MainWindow(object):
 
         self.verticalLayout.addWidget(self.LineEditNumero)
 
+        self.BotaoCadastrar = QPushButton(self.frame_2)
+        self.BotaoCadastrar.setObjectName(u"BotaoCadastrar")
+        self.BotaoCadastrar.setStyleSheet(u"background-color: rgb(170, 12, 120);")
+
+        self.verticalLayout.addWidget(self.BotaoCadastrar)
+
         self.LabelDep = QLabel(self.frame_2)
         self.LabelDep.setObjectName(u"LabelDep")
 
@@ -82,12 +89,6 @@ class Ui_MainWindow(object):
 
         self.verticalLayout.addWidget(self.LineeditDeposito)
 
-        self.BotaoCadastrar = QPushButton(self.frame_2)
-        self.BotaoCadastrar.setObjectName(u"BotaoCadastrar")
-        self.BotaoCadastrar.setStyleSheet(u"background-color: rgb(255, 170, 127);")
-
-        self.verticalLayout.addWidget(self.BotaoCadastrar)
-
         self.checkdeposito = QCheckBox(self.frame_2)
         self.checkdeposito.setObjectName(u"checkdeposito")
 
@@ -97,6 +98,22 @@ class Ui_MainWindow(object):
         self.checksaque.setObjectName(u"checksaque")
 
         self.verticalLayout.addWidget(self.checksaque)
+
+        self.labelsaque = QLabel(self.frame_2)
+        self.labelsaque.setObjectName(u"labelsaque")
+
+        self.verticalLayout.addWidget(self.labelsaque)
+
+        self.Lineeditsaque = QLineEdit(self.frame_2)
+        self.Lineeditsaque.setObjectName(u"Lineeditsaque")
+
+        self.verticalLayout.addWidget(self.Lineeditsaque)
+
+        self.pushButton_2 = QPushButton(self.frame_2)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setStyleSheet(u"background-color: rgb(170, 12, 120);")
+
+        self.verticalLayout.addWidget(self.pushButton_2)
 
         self.label = QLabel(self.frame_2)
         self.label.setObjectName(u"label")
@@ -110,6 +127,7 @@ class Ui_MainWindow(object):
 
         self.pushButton = QPushButton(self.frame_2)
         self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setStyleSheet(u"background-color: rgb(170, 12, 120);")
 
         self.verticalLayout.addWidget(self.pushButton)
 
@@ -133,11 +151,14 @@ class Ui_MainWindow(object):
         self.LineEditNome.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Nome do titular", None))
         self.LabelConta.setText(QCoreApplication.translate("MainWindow", u"N\u00famero da conta:", None))
         self.LineEditNumero.setPlaceholderText(QCoreApplication.translate("MainWindow", u"N\u00famero da conta ", None))
+        self.BotaoCadastrar.setText(QCoreApplication.translate("MainWindow", u"CADASTRAR", None))
         self.LabelDep.setText(QCoreApplication.translate("MainWindow", u"Dep\u00f3sito Inicial: *", None))
         self.LineeditDeposito.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Dep\u00f3sito Inicial", None))
-        self.BotaoCadastrar.setText(QCoreApplication.translate("MainWindow", u"CADASTRAR", None))
         self.checkdeposito.setText(QCoreApplication.translate("MainWindow", u"Dep\u00f3sito", None))
         self.checksaque.setText(QCoreApplication.translate("MainWindow", u"Saque*", None))
+        self.labelsaque.setText(QCoreApplication.translate("MainWindow", u"Saque:", None))
+        self.Lineeditsaque.setPlaceholderText(QCoreApplication.translate("MainWindow", u"valor para saque ", None))
+        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"SACAR", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"*Taxa adicional para saque de R$5,00", None))
         self.LabelNaoObrigatorio.setText(QCoreApplication.translate("MainWindow", u"*Dep\u00f3sito Inicial n\u00e3o \u00e9 obrigat\u00f3rio", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"VER SALDO", None))
