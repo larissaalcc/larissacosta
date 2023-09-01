@@ -77,7 +77,7 @@ class abrindoContaWindow(QMainWindow):
     def calc_deposito(self):
         
 
-    def saque(self):
+ 
         
 
         print("Qualquer saque é acompanhado com uma taxa de R$5,00")
@@ -113,3 +113,4 @@ if __name__ == "__main__":
     window = abrindoContaWindow()
     window.show()
     sys.exit(app.exec())
+     
