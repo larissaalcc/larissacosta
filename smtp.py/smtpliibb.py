@@ -8,12 +8,13 @@ try:
     servidor.starttls()
 
     #logando
-    servidor.login('estoquemedicohub@gmail.com', 'wick dniz fslg huop')
+    servidor.login('estoquemedicohub@gmail.com', 'pifs imrb vvyo kdah')
 
     #montando o email
+    
     remetente = 'estoquemedicohub@gmail.com'
-    destinatarios = ['larissacgr05@gmail.com']
-    conteudo = 'TOMA'
+    destinatarios = ['mauricio1desouza@gmail.com']
+    conteudo = 'agora vai'
 
     #enviando o email
     servidor.sendmail(remetente, destinatarios, conteudo)
