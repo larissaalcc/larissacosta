@@ -216,7 +216,7 @@ COMMIT;
 --
 
 SET AUTOCOMMIT=0;
-INSERT INTO `direccion` VALUES (1,'47 MySakila Drive',NULL,'Alberta',300,'','','2014-09-25 22:30:27'),
+INSERT INTO direccion VALUES (1,'47 MySakila Drive',NULL,'Alberta',300,'','','2014-09-25 22:30:27'),
 (2,'28 MySQL Boulevard',NULL,'QLD',576,'','','2014-09-25 22:30:09'),
 (3,'23 Workhaven Lane',NULL,'Alberta',300,'','14033335568','2014-09-25 22:30:27'),
 (4,'1411 Lillydale Drive',NULL,'QLD',576,'','6172235589','2014-09-25 22:30:09'),
@@ -234,7 +234,7 @@ INSERT INTO `direccion` VALUES (1,'47 MySakila Drive',NULL,'Alberta',300,'','','
 (16,'808 Bhopal Manor','','Haryana',582,'10672','465887807014','2014-09-25 22:31:30'),
 (17,'270 Amroha Parkway','','Osmaniye',384,'29610','695479687538','2014-09-25 22:33:27'),
 (18,'770 Bydgoszcz Avenue','','California',120,'16266','517338314235','2014-09-25 22:33:47'),
-(19,'419 Iligan Lane','','Madhya Pradesh',76,'72878','990911107354','2014-09-25 22:31:13'),
+(19,'419 Iligan Lane','','Madhya Pradesh',76,'72878','990911107354','2014-09-25 22:31:13'),			
 (20,'360 Toulouse Parkway','','England',495,'54308','949312333307','2014-09-25 22:33:40'),
 (21,'270 Toulon Boulevard','','Kalmykia',156,'81766','407752414682','2014-09-25 22:32:48'),
 (22,'320 Brest Avenue','','Kaduna',252,'43331','747791594069','2014-09-25 22:32:25'),
@@ -1667,7 +1667,8 @@ INSERT INTO pelicula VALUES (1,'ACADEMY DINOSAUR','A Epic Drama of a Feminist An
 (39,'ARMAGEDDON LOST','A Fast-Paced Tale of a Boat And a Teacher who must Succumb a Composer in An Abandoned Mine Shaft',2006,1,NULL,5,'0.99',99,'10.99','G','Trailers','2006-02-15 05:03:42'),
 (40,'ARMY FLINTSTONES','A Boring Saga of a Database Administrator And a Womanizer who must Battle a Waitress in Nigeria',2006,1,NULL,4,'0.99',148,'22.99','R','Trailers,Commentaries','2006-02-15 05:03:42'),
 (41,'ARSENIC INDEPENDENCE','A Fanciful Documentary of a Mad Cow And a Womanizer who must Find a Dentist in Berlin',2006,1,NULL,4,'0.99',137,'17.99','PG','Trailers,Deleted Scenes,Behind the Scenes','2006-02-15 05:03:42'),
-(42,'ARTIST COLDBLOODED','A Stunning Reflection of a Robot And a Moose who must Challenge a Woman in California',2006,1,NULL,5,'2.99',170,'10.99','NC-17','Trailers,Behind the Scenes','2006-02-15 05:03:42'),
+(42,'ARTIST COLDBLOODED','A Stunning Reflection of a Robot And
+ a Moose who must Challenge a Woman in California',2006,1,NULL,5,'2.99',170,'10.99','NC-17','Trailers,Behind the Scenes','2006-02-15 05:03:42'),
 (43,'ATLANTIS CAUSE','A Thrilling Yarn of a Feminist And a Hunter who must Fight a Technical Writer in A Shark Tank',2006,1,NULL,6,'2.99',170,'15.99','G','Behind the Scenes','2006-02-15 05:03:42'),
 (44,'ATTACKS HATE','A Fast-Paced Panorama of a Technical Writer And a Mad Scientist who must Find a Feminist in An Abandoned Mine Shaft',2006,1,NULL,5,'4.99',113,'21.99','PG-13','Trailers,Behind the Scenes','2006-02-15 05:03:42'),
 (45,'ATTRACTION NEWTON','A Astounding Panorama of a Composer And a Frisbee who must Reach a Husband in Ancient Japan',2006,1,NULL,5,'4.99',83,'14.99','PG-13','Trailers,Behind the Scenes','2006-02-15 05:03:42'),
