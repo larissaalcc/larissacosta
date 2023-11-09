@@ -47,4 +47,3 @@ create_data("Larissa", 32, "mauricio1desouza@gmail.com")
 create_data( "luiz", 30, "thiago.almeida@example.com")
 
 meubanco.close()
-,
