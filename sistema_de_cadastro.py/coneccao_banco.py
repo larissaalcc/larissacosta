@@ -1,4 +1,5 @@
 import mysql.connector
+from sistema import sistema_cadastro
 
     
 
@@ -15,14 +16,14 @@ meucursor = meubanco.cursor()
 
 # CREATE
 def create_data(id,nome,cpf,email,telefone,endereco):
-    sql = "INSERT INTO cadastro ( nome, cpf, email, telefone, endereco) VALUES ({self.inputnome},{self.inputcpf},{self.inputemail},{self.inputtelefone},{self.inputendereco})"
+    sql = "INSERT INTO cadastro ( nome, cpf, email, telefone, endereco) VALUES ({null},{self.inputnome},{self.inputcpf},{self.inputemail},{self.inputtelefone},{self.inputendereco})"
     val = (id,nome,cpf,email,telefone,endereco)
     meucursor.execute(sql, val)
     meubanco.commit()
     print(meucursor.rowcount, "Cadastro efetuado !")
 
 # READ
-def read_data():
+def read_data(self):
     meucursor.execute("SELECT * FROM cadastro")
     myresult = meucursor.fetchall()
     for x in myresult:
@@ -73,6 +74,6 @@ def delete_data(id, nome):
     print(meucursor.rowcount, "Cadastro excluido")
 
 
-
+create_data()
 meubanco.close()
 
