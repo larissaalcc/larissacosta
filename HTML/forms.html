@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <form action="send.php">
+
+        <fieldset id="pessoal">
+
+            <legend>dados pessoais</legend>
+            <p>Nome      <input type="text" name="texto" id="a" size="20" maxlength="10" placeholder="nome"></p>
+            <p>Sobrenome <input type="text" name="texto" id="b" size="20" maxlength="10" placeholder="sobrenome"></p>
+            <p>rg        <input type="number" name="number" id="c" size="20" maxlength="10" placeholder="rg"></p>
+            <p>cpf       <input type="number" name="number" id="d" size="20" maxlength="10" placeholder="cpf"></p>
+            <p>idade     <input type="date" name="date" id="e" size="20" maxlength="10" placeholder="idade"></p>
+            
+        </fieldset>
+
+        <fieldset id="endereço">
+
+            <legend>endereco</legend>
+            <p>Rua      <input type="text" name="texto" id="f" size="20" maxlength="10" placeholder="rua"></p>
+            <p>Bairro   <input type="text" name="texto" id="g" size="20" maxlength="10" placeholder="bairro"></p>
+            <p>cidade   <input type="text" name="texto" id="h" size="20" maxlength="10" placeholder="cidade"></p>
+            <p>estado   <input type="text" name="texto" id="i" size="20" maxlength="10" placeholder="estado"></p>
+            <p>Pais     <input type="text" name="texto" id="j" size="20" maxlength="10" placeholder="país"></p>
+            
+        </fieldset>
+
+        <fieldset id="financeiro">
+
+            <legend>financeiro</legend>
+            <p>Banco      <input type="text" name="texto" id="l" size="20" maxlength="10" placeholder="banco"></p>
+            <p>agencia    <input type="text" name="texto" id="m" size="20" maxlength="10" placeholder="agencia"></p>
+            <p>conta      <input type="text" name="texto" id="n" size="20" maxlength="10" placeholder="conta"></p>
+            <p>digito     <input type="text" name="texto" id="o" size="20" maxlength="10" placeholder="digito"></p>
+            <p>Regiao     <input type="text" name="texto" id="p" size="20" maxlength="10" placeholder="região"></p>
+            
+        </fieldset>
+
+        <fieldset id="comercial">
+
+            <legend>dado comercial</legend>
+            <p>Nome da empresa      <input type="text" name="texto" id="q" size="20" maxlength="10" placeholder="nome empresa"></p>
+            <p>cidade               <input type="text" name="texto" id="r" size="20" maxlength="10" placeholder="cidade empresa"></p>
+            <p>estado               <input type="text" name="texto" id="s" size="20" maxlength="10" placeholder="estado empresa"></p>
+            <p>rua                  <input type="text" name="texto" id="t" size="20" maxlength="10" placeholder="rua empresa"></p>
+            <p>cep                  <input type="number" name="number" id="u" size="20" maxlength="10" placeholder="cep empresa"></p>
+
+        </fieldset>
+
+        <fieldset id="veiculo">
+
+            <legend>veiculo</legend>
+            <p>Nome do veiculo     <input type="text" name="texto" id="aa" size="20" maxlength="10" placeholder="nome veiculo"></p>
+            <p>marca               <input type="text" name="texto" id="bb" size="20" maxlength="10" placeholder="marca"></p>
+            <p>tipo                <input type="text" name="texto" id="cc" size="20" maxlength="10" placeholder="tipo"></p>
+            <p>cor                 <input type="text" name="texto" id="dd" size="20" maxlength="10" placeholder="cor"></p>
+            <p>placa               <input type="number" name="number" id="ee" size="20" maxlength="10" placeholder="placa"></p>
+            
+        </fieldset>
+
+        <fieldset id="imovel">
+
+            <legend>imovel</legend>
+            <p>matricula           <input type="number" name="number" id="af" size="20" maxlength="10" placeholder="matricula"></p>
+            <p>cep                 <input type="number" name="number" id="bg" size="20" maxlength="10" placeholder="cep"></p>
+            <p>cadastro            <input type="number" name="number" id="ch" size="20" maxlength="10" placeholder="cadastro"></p>
+            <p>tipo                <input type="text" name="texto" id="di" size="20" maxlength="10" placeholder="tipo"></p>
+            <p>iptu                <input type="number" name="number" id="ej" size="20" maxlength="10" placeholder="iptu"></p>
+            
+        </fieldset>
+
+        <fieldset id="conjuge">
+
+            <legend>conjuge</legend>
+            <p>Nome do conjuge     <input type="text" name="texto" id="ak" size="20" maxlength="10" placeholder="nome conjuge"></p>
+            <p>rg                  <input type="number" name="number" id="bl" size="20" maxlength="10" placeholder="rg"></p>
+            <p>telefone            <input type="number" name="number" id="cm" size="20" maxlength="10" placeholder="telefone"></p>
+            <p>cpf                 <input type="number" name="number" id="dn" size="20" maxlength="10" placeholder="cpf"></p>
+            <p><b>sexo:</b>         <input type="radio" id="masculino" name="fav_languagem" value="M"> <label for="M">masculino</label> <input type="radio" id="feminino" name="fav_languagem" value="  feminino"><label for="F">feminino</label></p><br>
+            
+        </fieldset>   
+
+        <fieldset id="filhos">
+
+            <legend>filhos</legend>
+            <p>quantidade          <input type="number" name="number" id="ap" size="20" maxlength="10" placeholder="quantidade"></p>
+            <p>nome do 1°          <input type="text" name="texto" id="bq" size="20" maxlength="10" placeholder="nome do 1°"></p>
+            <p>sexo                <input type="text" name="texto" id="cr" size="20" maxlength="10" placeholder="sexo"></p>
+            <p>sobrenome           <input type="text" name="texto" id="ds" size="20" maxlength="10" placeholder="sobrenome do 1°"></p>
+            <p>idade               <input type="date" name="date" id="et" size="20" maxlength="10" placeholder="idade"></p>
+            
+        </fieldset>
+
+        <fieldset id="escolar">
+
+            <legend>escolar</legend>
+            <p>Nome da escola     <input type="text" name="texto" id="au" size="20" maxlength="10" placeholder="nome da escola"></p>
+            <p>cidade da escola   <input type="text" name="texto" id="bv" size="20" maxlength="10" placeholder="cidade da escola"></p>
+            <p>estado da escola   <input type="text" name="texto" id="cx" size="20" maxlength="10" placeholder="estado da escola"></p>
+            <p>Serie              <input type="text" name="texto" id="dw" size="20" maxlength="10" placeholder="serie"></p>
+            <p>Turma              <input type="text" name="texto" id="ez" size="20" maxlength="10" placeholder="turma"></p>
+            
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
