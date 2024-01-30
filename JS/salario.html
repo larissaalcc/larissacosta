@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var salario = parseFloat(window.prompt("Digite o valor do seu salário: R$"));
+
+        if (salario < 500){
+           var novoSalario = parseFloat(window.alert(salario+(salario*0.15))); 
+        }
+
+        else if (salario >= 500 && salario < 1000){
+           var novoSalario = parseFloat(window.alert(salario +(salario *0.10)));
+        }
+        else if (salario >=1000){
+           var novoSalario = parseFloat(window.alert (salario +(salario * 0.05)));
+        }
+        else{ 
+            alert ("DIGITE UM VALOR VÁLIDO");
+        }
+
+        alert ("Seu novo salário é "+novoSalario);
+</script>
+        
+    
+</body>
+</html>
