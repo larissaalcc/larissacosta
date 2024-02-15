@@ -1,0 +1,19 @@
+.container-fluid {
+    background-color:rgb(242, 139, 160);
+}
+
+.black{
+    background-color: rgb(236, 13, 143);
+}
+.blue{
+    background-color: rgb(93, 188, 239);
+}
+.rosa{
+    background-color: cornflowerblue;
+}
+.verde{
+    background-color: aliceblue;
+}
+.cinza{
+    background-color: blueviolet;
+}
