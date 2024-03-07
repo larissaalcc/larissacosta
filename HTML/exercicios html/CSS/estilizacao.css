@@ -1,0 +1,14 @@
+.container {
+    display: block;
+
+    background-color: rgb(93, 109, 123);    
+    align-items: center;
+
+}
+
+.padrao{
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+   
+}
